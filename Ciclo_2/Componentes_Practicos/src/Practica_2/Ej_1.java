@@ -55,9 +55,9 @@ public class Ej_1 {
             for (int j = 0; j < 3 ; j++) {
                 if(tablaProductos[i][j] < tablaRequeridos[i][j]) {
                     switch (j) {
-                        case 0 -> System.out.println("Se debe solicitar producto " + codigos[0] + " en sede " + i);
-                        case 1 -> System.out.println("Se debe solicitar producto " + codigos[1] + " en sede " + i);
-                        case 2 -> System.out.println("Se debe solicitar producto " + codigos[2] + " en sede " + i);
+                        case 0 -> System.out.println("Se debe solicitar producto " + codigos[0] + " en la sede " + i);
+                        case 1 -> System.out.println("Se debe solicitar producto " + codigos[1] + " en la sede " + i);
+                        case 2 -> System.out.println("Se debe solicitar producto " + codigos[2] + " en la sede " + i);
                     }
                 }
             }
